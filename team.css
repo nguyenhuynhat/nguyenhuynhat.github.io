@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f16553;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.wrapper{
+    margin-top: 10%;
+}
+.wrapper h1{
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align:center;
+
+}
+.about-us, .menu-bar ul li:hover{
+    background: #b6062c;
+    border-radius: 3px;
+}
+.active{
+    background: #000;
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+
+}
+.team .team_member{
+    width: 300px;
+    background:#fff;
+    padding:20px;
+    position:inherit;
+    margin: 5px;
+    margin-bottom: 50px;
+    line-height: 20px;
+    color: #8e8b8b;
+    
+}
+.team .team_member h3{
+    color: #f83232;
+    font-size: 26px;
+    margin-top: 50px;
+    font-family: "cursive, sans-serif";
+}
+.team .team_member p.role{
+    color: rgb(109, 18, 3);
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+.team .team_member .team-img {
+    width: 100px;
+    border-radius: 10%;
+    text-align: center;
+    align-items: center;
+    padding: 10px 10px 10px 75px;
+    top: 10px;
+    background: #fff;
+    
+    
+}
+
+.big-menu li a{
+    font-size: 14px;
+    
+}
+@media (max-width:991px){
+    .wrapper .team{
+        flex-direction: column;
+        
+        align-items: center;
+    }
+}
+.team .team_member .team-img{
+    background: url("https://bloganh.net/wp-content/uploads/2021/03/chup-anh-dep-anh-sang-min.jpg");
+    
+    height: 150px;
+    width: 200px;
+    
+    background-size: cover;
+    margin: 25px;
+
+}
+ 
