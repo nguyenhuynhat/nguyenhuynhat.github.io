@@ -1,0 +1,41 @@
+
+:root{
+    --bg1:#9b59b6;
+    --bg2:#3498db;
+    --text:#26ade4;
+}
+.bg-login{
+    width:100%;
+    height: 100vh;
+    background:linear-gradient(to bottom right,var(--bg1),var(--bg2));
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+#form-login{
+    width: 300px;
+    height: 500px;
+    background: rgb(172, 170, 170);
+    padding:40px 50px ;
+    border-radius: 10px;
+}
+.wrapper h1{
+    margin-bottom: 30px;
+    
+}
+.form-input{
+    width: 170px;
+    margin-bottom: 5px;
+    
+}
+.form-submit{
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
+.sign-up{
+    text-align: center;
+}
+.forget-pass{
+    text-align: right;
+}
