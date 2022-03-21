@@ -3,25 +3,28 @@
    margin:0; 
 }
 .menu-bar{
-    background: rgba(0, 100, 0);
+    background:#141313;
     text-align: center;
+    
 }
+
 .big-menu {
     display: inline-flex;
     list-style: none;
     color: #fff;
+    z-index: 1;
 }
 .menu-bar ul li{
     width: 120px;
-    margin:15px ;
-    padding: 15px;
+    margin:15px;
+    padding: 12px;
 }
 .menu-bar ul li a{
     text-decoration: none;
     color: #fff;
 }
 .active, .menu-bar ul li:hover{
-    background: #2bab0d;
+    background: #b6062c;
     border-radius: 3px;
 }
 .menu-bar .fas{
@@ -45,7 +48,7 @@
     border-bottom: none;
 }
 .sub-menu-1 ul li a:hover{
-    color:#b2ff00;
+    color:#2306a7;
     
 }
 .menu-bar ul li:hover .sub-menu-1{
@@ -54,7 +57,7 @@
     margin-top:15px;
     margin-left: -15px;
     position: absolute;
-    background: rgba(0, 100, 0);    
+    background: rgb(211, 55, 68);    
 }
 .menu-mini{
     display: none;
@@ -71,6 +74,193 @@
     position: absolute;
     margin-top: -45px;
     margin-left: 105px;
-    background: rgba(0, 100, 0); 
+    background: rgb(211, 55, 68); 
     
+}
+.body{
+    content: '';
+    width: 100%;
+    background-image:linear-gradient(0,rgba(97, 97, 24, 0.5), rgba(8, 8, 61, 0.5)), url(https://jobsgo.vn/blog/wp-content/uploads/2021/09/Infrastructure-la-gi-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    background-size:cover;
+    align-items: center;
+    
+
+}
+
+
+.div{
+    background: #000;
+    background-size: 100%;
+    
+}
+.nav{
+    color:#fff;
+    margin: 10px 15px
+}
+
+    
+
+.list-ul li{
+    list-style: none;
+    font-size: 17px;
+    color:black;
+    
+}
+.nav .title{
+    text-align: left;
+    max-width: 800px;
+    color:#190866;
+    font-weight: bold;
+    left: 0;
+}
+
+.nav p{
+    font-size: 17px;
+}
+.list-ul h3{
+    background: rgba(139, 21, 41,0.8);
+    text-align: center;
+    padding: 10px 10px;
+    border-radius:50px 50px;
+    width:40rem;
+    max-width: 200px;
+    
+}
+.hav .list{
+    font-size: 19px;
+    
+}
+h3{
+    font-size: 36px;
+    text-align: center;
+}
+.list{
+    text-align: left ;
+    color: #2306a7;
+}
+.suy ul{
+    display: flex;
+    
+    
+}
+.suy ul li{
+    width: 400px;
+    list-style: none;
+    font-style: italic;
+    text-align: center;
+    padding:10px 20px;
+    background: rgba(139, 21, 41,0.8);
+    border-radius:70px 70px;
+    box-shadow:5px 10px 9px;
+}
+.suy ul li:hover{
+    transform: translateY(-10px);
+}
+.list-ul .list-li-icon i{
+    margin: 0px 10px;
+}
+.suy{
+    background: rgba(139, 21, 41,0);
+    
+    
+    
+}
+.banhocduocnhunggi h3{
+    font-family: "gotham-medium.otf";
+    color: rgb(255, 235, 61);
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.2;
+    padding:15px 20px;
+    
+   
+   
+}
+.body1{
+    content: '';
+    background-image:linear-gradient(0,rgba(97, 97, 24, 0.5), rgba(8, 8, 61, 0.5)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLUMJKSJwrQQTFLVe9rj-Uw9DeT2MWnJ11Q&usqp=CAU);
+    padding:15px 20px;
+    color:orange;
+    background-repeat:no-repeat;
+    background-size:cover ;
+    align-items: center;
+}
+.body1 .menu-dacap{
+    font-size: 22px;
+}
+.body1 .menu-dacap li{
+    padding:10px 10px;
+    list-style: none;
+}
+.nav .hav h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    background: rgb(88, 20, 20);
+    padding: 10px 10px;
+    max-width: 900px;
+    content: center;
+    border-radius: 50px 50px;
+    
+}
+.body2 .menu-bot{
+    display: flex;
+    font-size: 16px;
+}
+
+
+.body2 .menu-bot .tit h4{
+    width: 400px;
+    color: #96071a;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: .5em;
+    text-rendering: optimizeSpeed;
+
+}
+.body2 .menu-bot .tit{
+    list-style: none;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 20px;
+}
+.body2{
+    background:#000000;
+    padding:20px 20px;
+}
+.body2 .menu-bot .tit .fa{
+    padding: 10px 5px;
+}
+.bot{
+    text-align: center;
+    background-color: rgba(0,0,0,0.77);
+    padding: 10px 20px;
+    color: rgba(255,255,255,0.5);
+}
+@media (max-width:991px){
+    .body-sum{
+        flex-direction: column;
+    }
+
+    .body2 ul{
+        flex-direction: column;
+    }
+    .section div{
+        flex-direction: column;
+    }
+    .menu-bar .nav .bov{
+        flex-direction: column;
+        align-items: center;
+        top:0;
+        left: 0;
+    }
+    .nav h1{
+        left: 0;
+        top: 0;
+    }
 }
