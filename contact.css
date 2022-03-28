@@ -17,6 +17,12 @@
     
     
 }
+.Contact-us, .menu-bar ul li:hover{
+    background: #b6062c;
+    border-radius: 3px;
+}
+
+
 .bg-section{
     background:linear-gradient(rgba(57, 59, 44, 0.5),rgba(18, 34, 49, 0.5));
     padding: 5px;
@@ -51,7 +57,7 @@ body{
     flex-direction: column;
 }
 .container .contact-info .box{
-    position: relative;
+    
     padding:20px 0;
     display: flex;
     
@@ -150,9 +156,14 @@ body{
     .container{
         flex-direction: column;
     }
-    .container .contact-info,.contact-form{
+    .container .contact-info{
         margin-bottom: 40px;
         width: 100%;
     }
+    .contact-form{
+        width: 100%;
+        
+    }
+    
 }
 

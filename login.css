@@ -11,6 +11,14 @@
     padding: 5px;
     display: flex;
     justify-content: center;
+    
+}
+.login{
+    background: #b6062c;
+    border-radius: 3px;
+}
+.wrapper{
+    margin-top: 100px;
 }
 #form-login{
     width: 300px;

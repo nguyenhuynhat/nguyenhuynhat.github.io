@@ -17,13 +17,23 @@ body{
     text-align:center;
 
 }
-.about-us, .menu-bar ul li:hover{
+.contact{
+    padding:10px 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contact:hover{
+    background: rgb(216, 89, 89);
+    border-radius: 50px 50px;
+    
+    
+}
+
+.team-us{
     background: #b6062c;
     border-radius: 3px;
 }
-.active{
-    background: #000;
-}
+
 .team{
     display: flex;
     text-align: center;

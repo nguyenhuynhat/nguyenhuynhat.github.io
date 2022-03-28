@@ -83,6 +83,7 @@ label,span,h2{
 .sum .h2{
     background:#141313;
     width: 97.4%;
+    font-family: 'Times New Roman', Times, serif;
 }
 .sum .h2 a{
     text-decoration: none;
@@ -92,6 +93,7 @@ label,span,h2{
 }
 .sum .h2 a:hover{
     background: #b6062c;
+    
 }
 
 

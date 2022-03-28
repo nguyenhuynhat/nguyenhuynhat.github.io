@@ -5,7 +5,13 @@
 .menu-bar{
     background:#141313;
     text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
     
+}
+.body .nav{
+    margin-top: 70px;
 }
 
 .big-menu {
@@ -58,6 +64,21 @@
     margin-left: -15px;
     position: absolute;
     background: rgb(211, 55, 68);    
+}
+.menu-bar{
+    display:flex;
+    justify-content: space-between; 
+    transition: 0.5s;
+    align-items: center;
+}
+
+.menu-bar .logo img{
+    max-width: 70px;
+    border-radius: 50%;
+    background: #000;
+    margin-left: 20px;
+    padding:10px 5px;
+    
 }
 .menu-mini{
     display: none;
@@ -147,6 +168,7 @@ h3{
     
 }
 .suy ul li{
+    
     width: 400px;
     list-style: none;
     font-style: italic;
@@ -158,6 +180,7 @@ h3{
 }
 .suy ul li:hover{
     transform: translateY(-10px);
+    position: none;
 }
 .list-ul .list-li-icon i{
     margin: 0px 10px;
@@ -168,7 +191,7 @@ h3{
     
     
 }
-.banhocduocnhunggi h3{
+.body1-main h3{
     font-family: "gotham-medium.otf";
     color: rgb(255, 235, 61);
     font-size: 30px;
