@@ -10,15 +10,25 @@
     top: 0;
     
 }
+.menu-icon{
+    width: 70px;
+    padding: 10px 15px;
+    display: none;
+}
 .body .nav{
     margin-top: 70px;
 }
-
-.big-menu {
-    display: inline-flex;
+.bigmenumain ul li{
+    display:inline-block;
+    align-items: center;
+    
+}
+#big_menu {
+    margin-top: 7px;
     list-style: none;
     color: #fff;
     z-index: 1;
+    
 }
 .menu-bar ul li{
     width: 120px;
@@ -279,11 +289,27 @@ h3{
     .menu-bar .nav .bov{
         flex-direction: column;
         align-items: center;
-        top:0;
-        left: 0;
+    
     }
-    .nav h1{
-        left: 0;
-        top: 0;
+   
+}
+@media only screen and (max-width:900px) {
+    #big_menu{
+        
+        background: linear-gradient(#ff54a2, #ff575a);
+        position:absolute;
+        z-index: 2;
+        right: 0;
+        top: 73px;
+        display:none;
     }
+    .bigmenumain ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .menu-icon{
+        display: block;
+    }
+
 }
