@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(rgba(14, 13, 13, 0.5),rgba(238, 238, 238, 0.5)), url( nen\ anh.jpg);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.container{
+    position: relative;
+    
+    max-width: 1000px;
+    min-height: 100px;
+    background: rgb(0, 0, 0);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+   
+   
+    
+    
+    
+}
+             /****************************** Left *********************************** */
+.container .left_side{
+    position: relative;
+    background: rgb(175, 240, 240);
+    padding: 40px;
+}
+.container .right_side{
+    position: relative;
+    background: rgb(133, 116, 116);
+    padding: 40px;
+}
+.textpf{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(46, 18, 18, 0.1);
+}
+.textpf .image{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.textpf .image img{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.textpf h2{
+    color:blue;
+    font-size: 1em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.textpf h2 span{
+    font-size: 0.8em;
+
+}
+.title{
+    text-transform: uppercase;   
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.title2{
+    text-transform: uppercase;   
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact{
+    padding-top: 30px;
+}
+.contact ul{
+    position: relative;
+}
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact ul li .icon{
+    display: inline-block;
+    width: 20px;
+    font-style: 18px;
+    color:rgb(255, 217, 0)
+}
+.contact1  h5 {
+    color: blueviolet;
+    list-style: none;
+    
+}
+.contact1 .tittle1{
+    background: rgb(190, 159, 58);
+    width: 100%;
+    padding: 5px ;
+    left: 0;
+    text-transform: uppercase;
+}
+.contact2 .title2{
+    background: rgb(190, 159, 58);
+    width: 100%;
+    padding: 5px ;
+    left: 0;
+    text-transform: uppercase;
+}
+.contact .title{
+    background: rgb(190, 159, 58);
+    width: 100%;
+    padding: 5px ;
+    left: 0;
+}
+
+.contact1 h3{
+    margin-bottom: 20px;
+}
+.contact2 h3{
+    margin-top: 20px;
+}
+.contact2 .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(11, 26, 17);
+    display:block;
+    margin-top: 5px;
+}
+.contact2 .percent div{
+    position:absolute;
+    top: 0;left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.contact2 .percent1 div{
+    position:absolute;
+    top: 0;left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.right_side .about h2 span{
+    color:#e21553;
+    border-bottom: 20px;
+}
+
+
+
+
+
+            /****************************** Right *********************************** */
+.container .right_side{
+    position: relative;
+    padding: 40px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title_right{
+    color:#003147;
+    letter-spacing: 1px;
+   
+}
+.about .box{
+    display: flex;
+    margin: 20px 0;
+    
+}
+.about .box .year_company h5{
+    text-transform: uppercase;
+    color: #2a5063; 
+}
+.about .box .year_company{
+    min-width: 140px;
+}
+.about .box .textp h4{
+    text-transform: uppercase;
+    color: #1d5874;
+}
+.skills .box{
+    
+    
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+.skills .box h4{
+    text-transform: uppercase;
+    color:#333;
+    font-weight: 500;
+}
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #333;
+}
+.skills .box .percent div{
+    position:absolute;
+    top: 0;left: 0;
+    height: 100%;
+    background: #1d5874;
+}
+.right_side .about:hover{
+    background: rgb(245, 246, 247);
+    border-radius: 50px 50px;
+    padding:10px 20px;
+    transition: 0.5s;
+}
+.about .habit{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.about .habit li{
+    width: 100px;
+}
+.about .habit div {
+    position: relative;
+    text-align: center;
+}
+.about .habit div li{
+    margin-top: 5px;
+}
+.about .habit div i{
+    max-width: 100px;
+}
+@media (max-width:1002px){
+    .container{
+        flex-direction: column;
+        display: flex;
+    }
+}
+
+
